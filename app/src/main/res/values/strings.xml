@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pixabay Library</string>
+    <string name="no_internet">Internet connection not found.</string>
+    <string name="socket_time_out_exception">Socket time out exception.</string>
+    <string name="io_exception">IO exception.</string>
+    <string name="internal_server_error">Internal server error.</string>
+    <string name="server_error">Server error.</string>
+    <string name="token_expired">Token is expired.</string>
+    <string name="not_found">Url not found.</string>
+    <string name="dash">-</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="dialog_message">Do you want to see more details about this picture ?</string>
+    <string name="dialog_title">View details.</string>
+    <string name="likes_colon">Likes </string>
+    <string name="comment_colon">Comments </string>
+    <string name="downloads_colon">Downloads </string>
+    <string name="image_s_tags">Image\'s Tags</string>
+    <string name="image_details">Image\'s Details</string>
+    <string name="error_message">Error !</string>
+    <string name="ok">OK</string>
+    <string name="search">Search</string>
+    <string name="no_search_result_text">Query does not meet any search result !!!</string>
+    <string name="search_query">Search your query here</string>
+    <string name="cant_load_from_cache">Cant load Image from cache.Please connect to internet.</string>
+    <string name="image_is_ready_to_view">Image is ready to view</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cvImageDetail"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:id="@+id/appImageView"
+            android:layout_margin="8dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@+id/appImageView"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+
+                android:text="@string/dash"
+                android:id="@+id/appCompTextViewUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:paddingTop="4dp"
+                android:text="@string/dash"
+                android:id="@+id/appCompTextViewTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp" />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

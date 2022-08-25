@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+tools:context=".features.pixabay.view.MainActivity"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<androidx.recyclerview.widget.RecyclerView
+
+    android:id="@+id/imageRecyclerView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+    app:spanCount="4"
+/>
+
+<androidx.appcompat.widget.AppCompatTextView
+    android:visibility="gone"
+    android:gravity="center"
+    android:text="@string/no_search_result_text"
+    android:id="@+id/noDataFound"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
